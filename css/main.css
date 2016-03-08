@@ -13,3 +13,155 @@
 .clearfix:after {
   clear: both;
 }
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.texto {
+  font-size: 12px;
+  color: #fff;
+  line-height: 150%;
+}
+
+
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*------------------------Seccion final-----------------------*/
+#seccion-final {
+  background-color: #34495E;
+  color: #BDC3C7;
+  font-size: 12px;
+  padding: 40px 0;
+}
+#seccion-final h4 {
+  color: #FFF;
+}
+#seccion-final .texto {
+  color: #BDC3C7;
+}
+ul.flecha {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+u.flecha li {
+  font-size: 12px;
+  color: #BDC3C7;
+  text-decoration: none;
+}
+.flecha a,.resumen-post a {
+  color:  #BDC3C7;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+ul.flecha li::before, ul.flecha li::after {
+  font-family: FontAwesome;
+  font-size: 12px;
+}
+ul.flecha li::before {
+  content: "\f105";
+  margin-right: 5px;
+}
+ul.flecha a:hover, ul.flecha a:focus {
+  text-decoration: none;
+  color: #FFF;
+}
+.latest-post {
+  margin: 5px 0;
+  padding: 5px;
+}
+.latest-post:hover {
+  background-color: rgba(231, 76, 60, 0.6);
+}
+.latest-post:hover .resumen-post a {
+  color: #FFF;
+  text-decoration: none;
+} 
+.foto-latest-post {
+  float: left;
+  margin-right: 15px;
+}
+.fecha {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.address p{
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.address>:nth-child(2) {
+  font-weight: 700;
+}
+.newsletter {
+  margin-top: 20px;
+}
+.subscribe-form {
+  margin: 10px 0;
+}
+.subscribe-input, .subscribe-submit {
+  padding: 7px 10px;
+  outline: none;
+}
+.subscribe-input {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #BDC3C7;
+}
+.subscribe-submit {
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #C1413F;
+  position: absolute;
+}
+
+
+
+/*-------------------------Footer---------------------------*/
+footer {
+  background-color: #2C3E50;
+  color: #BDC3C7;
+  padding: 30px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
