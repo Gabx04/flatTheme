@@ -9,7 +9,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/utilities.css" type="text/css"/>
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/queries.css" type="text/css"/>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -21,8 +23,147 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-    <!-- Inserte código aqui -->
-
+<header id="header" class="cabeza navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>   
+                
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="images/logo.png">
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="menu" href="index.html#header">Home</a></li>
+                    <li><a class="menu" href="about-us.html#header">About Us</a></li>
+                    <li><a class="menu" href="services.html#header">Services</a></li>
+                    <li><a class="menu active" href="portfolio.html#header">Portfolio</a></li>
+                    <li><a class="menu" href="blog.html#header">Blog</a></li>
+                    <li><a class="menu" href="contact.html#header">Contact</a></li>
+                </ul>  
+            </div>
+        </div>
+    </header>
+    
+    <section class="verde">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>Contact Us</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                </div>
+                <div class="col-sm-6 campo">
+                    <ul class="breadcrumb pull-right espacio">
+                        <li><a class="home" href="index.html">Home</a></li>
+                        <li class="pagina-actual">Contact Us</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+<section id="seccion-final">
+      <div class="container">
+        <div class="row ">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">about us</h4>
+          <p class="texto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa, inventore totam numquam reiciendis nam officiis quo iusto possimus culpa perferendis adipisci veritatis eius.</p>
+          <p class="texto text-white">Lorem ipsum dolor sit amet.</p>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">company</h4>
+          <ul class="flecha">
+            <li><a>company overview</a></li>
+            <li><a>meet the team</a></li>
+            <li><a>our awesome partners</a></li>
+            <li><a>our services</a></li>
+            <li><a>frequenly asked questions</a></li>
+            <li><a>contact us</a></li>
+            <li><a>privacy policy</a></li>
+            <li><a>terms of use</a></li>
+            <li><a>copyrigth</a></li>
+          </ul>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">latest blog</h4>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb1.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 17 aug 2013</p>
+            </div>
+          </div>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb2.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 13 sep 2013</p>
+            </div>
+          </div>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb3.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 11 jul 2013</p>
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="address">
+            <h4 class="text-capitalize text-white">address</h4>
+            <p class="texto">twitter, inc.</p>
+            <p class="texto">795 folsom ave, suite 600</p>
+            <p class="texto">san francisco, CA94107</p>
+            <p class="texto">p: (123) 456-7890</p>
+          </div>
+          <div class="newsletter">
+            <h4 class="text-capitalize text-white">newsletter</h4>
+            <form action="" method="post" class="subscribe-form">
+              <input type="email" name="email" class="subscribe-input" placeholder="Enter your email">
+              <span>
+                <button type="submit" class="btn-danger subscribe-submit text-capitalize">go!</button>
+              </span>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <p class="texto text-capitalize">© 2013 shapeBootstrap. all rights reserved.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="pull-right">
+            <ul class="nav-footer">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about-us.html">about us</a></li>
+                <li><a href="contact-us.html">contact us</a></li>
+                <li>
+                  <a class="gototop" href="#">
+                    <i class="icon-chevron-up"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
