@@ -112,6 +112,9 @@ body {
  #what-we-do, #clients-say {
    padding: 30px 0
  }
+#what-we-do {
+  
+ }
 #what-we-do i {
   width: 70px;
   height: 70px;
@@ -130,12 +133,28 @@ body {
 #what-we-do .row {
   margin-top: 25px;
 }
+#what-we-do .row:last-child {
+  padding-bottom: 40px;
+  border-bottom: 1px inset #BBB;
+}
 .servicios {
   display: block;
   overflow: hidden;
 }
+#clients-say .row:first-child {
+  margin-bottom: 30px;
+}
 .testimonial {
-  padding: 20px;
+  padding: 5px 20px;
+  margin: 20px;
+  border-left: 5px solid #EEE;
+}
+.cita {
+  font-size: 16px;
+}
+.cliente {
+  font-size: 11px;
+  color: #BBB;
 }
 
 /*--------------------------Portfolio-----------------------*/
@@ -143,7 +162,26 @@ body {
 /*-------------------------Blog--------------------------*/
 /*----------------------------------------------------*/
 /*------------------------Contact----------------------*/
-
+#contacto .row {
+  padding: 40px 0;
+}
+#contacto input, #contacto textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #BDC3C7;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+  outline: none;
+}
+.send {
+  font-size: 16px;
+  padding: 10px 5px !important;
+  width: 140px !important;
+}
+#contacto textarea {
+  height: 210px;
+}
 /*------------------------Seccion final-----------------------*/
 #seccion-final {
   background-color:#34495E; 
@@ -259,10 +297,6 @@ footer {
 .nav-footer a:hover, .nav-footer a:focus {
   color: #FFF;
 }
-#ir-arriba:hover >i {
-  color: #FFF;
-}
-
 
 
 
