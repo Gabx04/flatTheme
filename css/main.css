@@ -108,6 +108,63 @@ body {
 /*---------------------------Home-------------------------*/
 /*-------------------------About-Us----------------------*/
 
+.progress, .progress .bar{
+  background-color: #fff;
+  box-shadow: none;
+  height: 30px;
+  line-height: 30px;
+}
+
+.fila1{
+  padding-top: 50px;
+}
+
+.fila2{
+  text-align: center;
+  padding: 50px 0 40px 0;
+}
+
+.fila3{
+  padding-bottom:0px;
+}
+
+.img-thumbnail{
+  border:none;
+}
+
+.centro{
+  text-align: center;
+}
+
+.btn-social.btn-facebook {
+    background: #4f7dd4;
+}
+
+.btn-social.btn-google{
+  background-color: #dc422b;
+}
+
+.btn-social.btn-twitter{
+  background-color: #5bceff;
+}
+
+.btn-social.btn-linkedin{
+  background-color: #21a6d8;
+}
+
+
+.btn-social {
+  border: 0;
+  color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  padding: 0;
+}
+
 /*--------------------------Services--------------------*/
  #what-we-do, #clients-say {
    padding: 30px 0
@@ -141,6 +198,37 @@ body {
 /*--------------------------Portfolio-----------------------*/
 
 /*-------------------------Blog--------------------------*/
+
+.widget{
+  margin-bottom: 30px;
+}
+
+a{
+  color: #34495e;
+}
+
+ul.arrow{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+ul.tag-cloud{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.tag-cloud li {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.azul a{
+  color: #34495E !important;
+}
+
+
 /*----------------------------------------------------*/
 /*------------------------Contact----------------------*/
 
