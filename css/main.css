@@ -13,6 +13,11 @@
 .clearfix:after {
   clear: both;
 }
+
+body {
+  background-color: #F5F5F5;
+  color: #34495E;
+}
 .container {
   padding-right: 0;
   padding-left: 0;
@@ -22,31 +27,128 @@
   margin-left: 0;
 }
 
-
-
-
-
-
-
-
-
-
 .texto {
-  font-size: 12px;
-  color: #fff;
+  font-size: 14px;
   line-height: 150%;
 }
 
+/*-----------------------Header---------------------*/
+.cabeza{
+	border: none;
+	background-color: #34495e;
+	color: #fff;
+	height: 80px;
+}
 
+.cabeza .container{
+	padding: 5px 5px;
+}
 
+.cabeza .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+.menu{
+	color: #bdc3c7;
+	margin-top: 10px; 
+}
+
+.menu:hover{
+	color: #fff;
+	background-color: transparent !important;
+}
+.nav li .active, .nav li .active:hover {
+  background: #2c3e50 !important;
+  color: #fff;
+	border-radius: 5px;
+}
+.cabeza .navbar-collapse{
+	border-top:0;
+}
+
+.logo{
+	margin-top: 10px;
+}
+
+.barramenu{
+	margin: 10px 0;
+}
+
+.collapse{
+	height: 0px;
+}
+/*---------------------------Encabezado-----------------------*/
+.verde{
+	background: #2ecc71;
+	margin-top: 80px;
+	padding: 30px 0 50px 0;
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+}
+.verde h1 {
+  margin-bottom: 0;
+}
+.campo{
+	margin: 30px 0 0 0;
+}
+
+.espacio{
+	background: transparent;
+}
+.home{
+	color: #fff;
+}
+.home:hover, .home:focus {
+  	color: #fff;
+  	text-decoration: none;
+}
+.pagina-actual{
+	color: #A4E9C1;
+}
+/*---------------------------Home-------------------------*/
+/*-------------------------About-Us----------------------*/
+
+/*--------------------------Services--------------------*/
+ #what-we-do, #clients-say {
+   padding: 30px 0
+ }
+#what-we-do i {
+  width: 70px;
+  height: 70px;
+  background-color: #939393;
+  color: #FFF;
+  font-size: 35px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 100%;
+  margin: 20px 30px 0 0;
+  display: block;
+}
+#what-we-do i:hover {
+  background-color: gray;
+}
+#what-we-do .row {
+  margin-top: 25px;
+}
+.servicios {
+  display: block;
+  overflow: hidden;
+}
+.testimonial {
+  padding: 20px;
+}
+
+/*--------------------------Portfolio-----------------------*/
+
+/*-------------------------Blog--------------------------*/
 /*----------------------------------------------------*/
-/*----------------------------------------------------*/
-/*----------------------------------------------------*/
+/*------------------------Contact----------------------*/
+
 /*------------------------Seccion final-----------------------*/
 #seccion-final {
-  background-color: #34495E;
+  background-color:#34495E; 
   color: #BDC3C7;
-  font-size: 12px;
+  font-size: 14px;
   padding: 40px 0;
 }
 #seccion-final h4 {
@@ -61,13 +163,13 @@ ul.flecha {
   margin: 0;
 }
 u.flecha li {
-  font-size: 12px;
+  font-size: 14px;
   color: #BDC3C7;
   text-decoration: none;
 }
 .flecha a,.resumen-post a {
   color:  #BDC3C7;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: capitalize;
 }
 ul.flecha li::before, ul.flecha li::after {
@@ -98,8 +200,11 @@ ul.flecha a:hover, ul.flecha a:focus {
   margin-right: 15px;
 }
 .fecha {
-  font-size: 10px;
-  margin-top: 10px;
+  color: #BDC3C7;
+  font-size: 11px;
+  margin: 10px 0 0;
+  
+
 }
 .address p{
   margin-bottom: 0;
@@ -136,14 +241,27 @@ footer {
   color: #BDC3C7;
   padding: 30px;
 }
-footer ul {
+.nav-footer {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+.nav-footer li {
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 10px;
 
-
-
+}
+.nav-footer a {
+  color: #BDC3C7;
+  text-decoration: none;
+}
+.nav-footer a:hover, .nav-footer a:focus {
+  color: #FFF;
+}
+#ir-arriba:hover >i {
+  color: #FFF;
+}
 
 
 
