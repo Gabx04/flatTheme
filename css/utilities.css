@@ -5,3 +5,6 @@
 .text-capitalize {
     text-transform: capitalize;
 }
+.text-white {
+    color: white;
+}

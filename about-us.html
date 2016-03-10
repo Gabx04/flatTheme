@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>About Us | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="css/utilities.css" type="text/css"/>
@@ -23,7 +23,7 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-    <header class="cabeza navbar navbar-fixed-top">
+    <header id="header" class="cabeza navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -40,18 +40,16 @@
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class=" menu" href="index.html">Home</a></li>
-                    <li><a class="menu" href="about-us.html">About Us</a></li>
-                    <li><a class="menu" href="services.html">Services</a></li>
-                    <li><a class="menu" href="portfolio.html">portfolio</a></li>
-                    <li><a class="menu" href="#">Pages</a></li>
-                    <li><a class="menu" href="blog.html">Blog</a></li>
-                    <li><a class="menu" href="contact.html">Contact</a></li>
+                    <li><a class="menu" href="index.html#header">Home</a></li>
+                    <li><a class="menu active" href="about-us.html#header">About Us</a></li>
+                    <li><a class="menu" href="services.html#header">Services</a></li>
+                    <li><a class="menu" href="portfolio.html#header">Portfolio</a></li>
+                    <li><a class="menu" href="blog.html#header">Blog</a></li>
+                    <li><a class="menu" href="contact-us.html#header">Contact</a></li>
                 </ul>  
             </div>
         </div>
     </header>
-    
     <section class="verde">
         <div class="container">
             <div class="row">
@@ -69,6 +67,228 @@
             </div>
         </div>
     </section>
+    
+    <section class="container">
+        <div class="row fila1">
+            <div class="col-sm-6">
+                <h2>What we are</h2>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            </div>
+            <div class="col-sm-6">
+                <h2>Our Skills</h2>
+                <div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <span>Wordpress</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                            <span>Joomla</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                            <span>Drupal</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row fila2">
+            <h1>Meet the Team</h1>
+            <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+        <div class="row fila3">
+            <div class="col-md-3 col-xs-6">
+                <div class="centro">
+                    <img class=" img-thumbnail img-circle" src="images/team-member.jpg">
+                    <h5>David J. Robbins</h5>
+                    <small class="designation muted">Senior Vice President</small>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                   <a class="btn btn-social btn-facebook" href="#">
+                    <i class="icon-facebook"></i>
+                   </a>
+                   <a class="btn btn-social btn-google" href="#">
+                    <i class="icon-google-plus"></i>
+                   </a>
+                   <a class="btn btn-social btn-twitter" href="#">
+                    <i class="icon-twitter"></i>
+                   </a>
+                   <a class="btn btn-social btn-linkedin" href="#">
+                    <i class="icon-linkedin"></i>
+                   </a>
+                </div>
+            </div>  
+            <div class="col-md-3 col-xs-6">
+                <div class="centro">
+                    <img class=" img-thumbnail img-circle" src="images/team-member.jpg">
+                    <h5>David J. Robbins</h5>
+                    <small class="designation muted">Senior Vice President</small>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                   <a class="btn btn-social btn-facebook" href="#">
+                    <i class="icon-facebook"></i>
+                   </a>
+                   <a class="btn btn-social btn-google" href="#">
+                    <i class="icon-google-plus"></i>
+                   </a>
+                   <a class="btn btn-social btn-twitter" href="#">
+                    <i class="icon-twitter"></i>
+                   </a>
+                   <a class="btn btn-social btn-linkedin" href="#">
+                    <i class="icon-linkedin"></i>
+                   </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="centro">
+                    <img class=" img-thumbnail img-circle" src="images/team-member.jpg">
+                    <h5>David J. Robbins</h5>
+                    <small class="designation muted">Senior Vice President</small>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                   <a class="btn btn-social btn-facebook" href="#">
+                    <i class="icon-facebook"></i>
+                   </a>
+                   <a class="btn btn-social btn-google" href="#">
+                    <i class="icon-google-plus"></i>
+                   </a>
+                   <a class="btn btn-social btn-twitter" href="#">
+                    <i class="icon-twitter"></i>
+                   </a>
+                   <a class="btn btn-social btn-linkedin" href="#">
+                    <i class="icon-linkedin"></i>
+                   </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="centro">
+                    <img class=" img-thumbnail img-circle" src="images/team-member.jpg">
+                    <h5>David J. Robbins</h5>
+                    <small class="designation muted">Senior Vice President</small>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                   <a class="btn btn-social btn-facebook" href="#">
+                    <i class="icon-facebook"></i>
+                   </a>
+                   <a class="btn btn-social btn-google" href="#">
+                    <i class="icon-google-plus"></i>
+                   </a>
+                   <a class="btn btn-social btn-twitter" href="#">
+                    <i class="icon-twitter"></i>
+                   </a>
+                   <a class="btn btn-social btn-linkedin" href="#">
+                    <i class="icon-linkedin"></i>
+                   </a>
+                </div>
+            </div>       
+        </div>
+    </section>
+    
+    <section id="seccion-final">
+      <div class="container">
+        <div class="row ">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">about us</h4>
+          <p class="texto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa, inventore totam numquam reiciendis nam officiis quo iusto possimus culpa perferendis adipisci veritatis eius.</p>
+          <p class="texto text-white">Lorem ipsum dolor sit amet.</p>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">company</h4>
+          <ul class="flecha">
+            <li><a>company overview</a></li>
+            <li><a>meet the team</a></li>
+            <li><a>our awesome partners</a></li>
+            <li><a>our services</a></li>
+            <li><a>frequenly asked questions</a></li>
+            <li><a>contact us</a></li>
+            <li><a>privacy policy</a></li>
+            <li><a>terms of use</a></li>
+            <li><a>copyrigth</a></li>
+          </ul>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">latest blog</h4>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb1.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 17 aug 2013</p>
+            </div>
+          </div>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb2.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 13 sep 2013</p>
+            </div>
+          </div>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb3.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 11 jul 2013</p>
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="address">
+            <h4 class="text-capitalize text-white">address</h4>
+            <p class="texto">twitter, inc.</p>
+            <p class="texto">795 folsom ave, suite 600</p>
+            <p class="texto">san francisco, CA94107</p>
+            <p class="texto">p: (123) 456-7890</p>
+          </div>
+          <div class="newsletter">
+            <h4 class="text-capitalize text-white">newsletter</h4>
+            <form action="" method="post" class="subscribe-form">
+              <input type="email" name="email" class="subscribe-input" placeholder="Enter your email">
+              <span>
+                <button type="submit" class="btn-danger subscribe-submit text-capitalize">go!</button>
+              </span>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <p class="texto text-capitalize">© 2013 shapeBootstrap. all rights reserved.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="pull-right">
+            <ul class="nav-footer">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about-us.html">about us</a></li>
+                <li><a href="contact-us.html">contact us</a></li>
+                <li>
+                  <a class="gototop" href="#">
+                    <i class="icon-chevron-up"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -106,8 +106,172 @@ body {
 	color: #A4E9C1;
 }
 /*---------------------------Home-------------------------*/
-/*-------------------------About-Us----------------------*/
+#main-slider{
+  position: relative;
 
+	margin-top: 80px;
+}
+.blanco{
+  color: #fff;
+}
+#main-slider .carousel .item.active {
+    opacity: 1;
+    transition: opacity ease-in-out 500ms;
+    z-index: 1;
+}
+#main-slider .carousel .item:first-child {
+    top: auto;
+    position: relative;
+}
+#main-slider .carousel .item {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0!important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block!important;
+    height: 600px;
+    transition: opacity ease-in-out 500ms;
+}
+.center{
+  text-align: center;
+}
+#main-slider .prev {
+    left: 10px;
+}
+#main-slider .next {
+    right: 10px;
+}
+#main-slider .prev, #main-slider .next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    display: inline-block;
+    margin-top: -25px;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 5;
+}
+.hidden-xs {
+    display: block!important;
+}
+a {
+    color: #34495e;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+#nuestras-redes {
+  padding: 30px 0;
+  background: #2ecc71;
+  padding: 30px 0 50px 0;
+	color: #fff;
+ }
+#nuestras-redes i {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFF;
+  font-size: 35px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 100%;
+  margin: 20px 30px 0 0;
+  display: block;
+}
+#nuestras-redes i:hover {
+  background-color: black;
+}
+#nuestras-redes .row {
+  margin-top: 25px;
+}
+#nuestros-trabajos {
+  padding: 80px 0;
+}
+#nuestros-trabajos h5 {
+  font-weight: bold;
+}
+#clients-say-home {
+  background-color: #e74c3c !important;
+  color: white !important;
+  padding: 30px 0;
+}
+
+.testimonial-home {
+  padding: 5px 20px;
+  margin: 20px;
+  border-left: 5px solid #FFF;
+}
+.cita-home {
+  font-size: 16px;
+}
+.cliente-home {
+  font-size: 11px;
+  color: #FFF;
+}
+/*-------------------------About-Us----------------------*/
+.blog{
+  padding:30px 0;
+}
+aside{
+  padding-top: 30px;
+}
+.progress, .progress .bar{
+  background-color: #fff;
+  box-shadow: none;
+  height: 30px;
+  line-height: 30px;
+}
+.fila1{
+  padding-top: 50px;
+}
+.fila2{
+  text-align: center;
+  padding: 50px 0 40px 0;
+}
+.fila3{
+  padding-bottom:0px;
+}
+.img-thumbnail{
+  border:none;
+}
+.centro{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.btn-social.btn-facebook {
+    background: #4f7dd4;
+}
+.btn-social.btn-google{
+  background-color: #dc422b;
+}
+.btn-social.btn-twitter{
+  background-color: #5bceff;
+}
+.btn-social.btn-linkedin{
+  background-color: #21a6d8;
+}
+.btn-social {
+  border: 0;
+  color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  padding: 0;
+}
 /*--------------------------Services--------------------*/
  #what-we-do, #clients-say {
    padding: 30px 0
@@ -156,10 +320,10 @@ body {
 
 /*--------------------------Portfolio-----------------------*/
 #portfolio {
-  padding: 20px 0 30px;
+  padding: 30px 0;
 }
 #portfolio .row {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .proyecto {
   padding: 10px;
@@ -180,7 +344,57 @@ body {
 
 
 /*-------------------------Blog--------------------------*/
-/*----------------------------------------------------*/
+.widget{
+  margin-bottom: 30px;
+}
+
+a{
+  color: #34495e;
+}
+
+ul.arrow{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+ul.tag-cloud{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.tag-cloud li {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.azul a{
+  color: #34495E !important;
+}
+
+.chico{
+  color: #999;
+  margin: 0 10px 0px 0;
+  font-size: 12px;
+}
+
+.meta{
+  margin-bottom: 20px; 
+}
+
+.chico a{
+  color: #999;
+}
+
+.boton{
+  margin-bottom: 20px;
+}
+
+ul li.active a{
+  background-color: #34495e !important;
+  border:none;
+}
 /*------------------------Contact----------------------*/
 #contacto .row {
   padding: 40px 0;

@@ -6,10 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Blog Item | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/utilities.css" type="text/css"/>
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/queries.css" type="text/css"/>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -21,8 +23,331 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-    <!-- Inserte código aqui -->
+    <header id="header" class="cabeza navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>   
+                
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="images/logo.png">
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="menu" href="index.html#header">Home</a></li>
+                    <li><a class="menu" href="about-us.html#header">About Us</a></li>
+                    <li><a class="menu" href="services.html#header">Services</a></li>
+                    <li><a class="menu " href="portfolio.html#header">Portfolio</a></li>
+                    <li><a class="menu" href="blog.html#header">Blog</a></li>
+                    <li><a class="menu" href="contact-us.html#header">Contact</a></li>
+                </ul>  
+            </div>
+        </div>
+    </header>
+    <section class="verde">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>Blog Item</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                </div>
+                <div class="col-sm-6 campo">
+                    <ul class="breadcrumb pull-right espacio">
+                        <li><a class="home" href="index.html">Home</a></li>
+                        <li class="pagina-actual">Pages / Blog Item</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
+    <section class="container blog">
+        <div class="row">
+            <aside class="col-sm-4 col-sm-push-8">
+                <div class="widget search">
+                    <form role="form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" autocomplete="off" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger" type="button"><i class="icon-search"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="widget ads">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad1.png" alt=""></a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <p> </p>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad3.png" alt=""></a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad4.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget categories">
+                    <h3>Blog Categories</h3>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="arrow flecha azul">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Updates</a></li>
+                                <li><a href="#">Tutorial</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="arrow flecha azul">
+                                <li><a href="#">Joomla</a></li>
+                                <li><a href="#">Wordpress</a></li>
+                                <li><a href="#">Drupal</a></li>
+                                <li><a href="#">Magento</a></li>
+                                <li><a href="#">Bootstrap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget tags">
+                <h3>Tag Cloud</h3>
+                    <ul class="tag-cloud">
+                        <li><a class="btn btn-xs btn-primary" href="#">CSS3</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">HTML5</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">WordPress</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">Joomla</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">Drupal</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">Bootstrap</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">jQuery</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">Tutorial</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="#">Update</a></li>
+                    </ul>
+                </div>
+                <div class="widget facebook-fanpage">
+                    <h3>Facebook Fanpage</h3>
+                    <div class="widget-content">
+                        <div class="fb-like-box fb_iframe_widget" data-href="https://www.facebook.com/shapebootstrap" data-width="292" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=144716315690681&amp;container_width=360&amp;header=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshapebootstrap&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=false&amp;width=292"><span style="vertical-align: bottom; width: 292px; height: 214px;"><iframe name="f2f631c1b8" width="292px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like_box Facebook Social Plugin" src="http://www.facebook.com/plugins/like_box.php?app_id=144716315690681&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df245e44d24%26domain%3Dshapebootstrap.net%26origin%3Dhttp%253A%252F%252Fshapebootstrap.net%252Ff165c45228%26relation%3Dparent.parent&amp;container_width=360&amp;header=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fshapebootstrap&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=false&amp;width=292" style="border: none; visibility: visible; width: 292px; height: 214px;" class=""></iframe></span></div>
+                    </div>
+                </div>
+            </aside>
+            <div class="col-sm-8 col-sm-pull-4">
+                <div class="blog">
+                    <div class="blog-item">
+                        <img class="img-responsive img-blog" src="images/blog/blog2.jpg" width="100%" alt="">
+                        <div class="blog-content">
+                            <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
+                            <div class="meta">
+                            <span class="chico"><i class="icon-user"></i> <a href="#">John</a></span>
+                            <span class="chico"><i class="icon-folder-close"></i> <a href="#">Bootstrap</a></span>
+                            <span class="chico"><i class="icon-calendar"></i> Sept 16th, 2012</span>
+                            <span class="chico"><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+                            </div>
+                            <p class="lead">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                            <hr>
+                            <div class="tags">
+                                <i class="icon-tags"></i> Tags <a class="btn btn-xs btn-primary" href="#">CSS3</a> <a class="btn btn-xs btn-primary" href="#">HTML5</a> <a class="btn btn-xs btn-primary" href="#">WordPress</a> <a class="btn btn-xs btn-primary" href="#">Joomla</a>
+                            </div>
+                            <p>&nbsp;</p>
+                            <div class="author well">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="avatar img-thumbnail" src="images/blog/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="media-heading">
+                                            <strong>John Doe</strong>
+                                        </div>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div id="comments">
+                                <div id="comments-list">
+                                    <h3>3 Comments</h3>
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="avatar img-circle" src="images/blog/avatar1.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="well">
+                                                <div class="media-heading">
+                                                    <strong>John Doe</strong>&nbsp; <small>27 Aug 2013</small>
+                                                    <a class="pull-right" href="#"><i class="icon-repeat"></i> Reply</a>
+                                                </div>
+                                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                            </div>
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <img class="avatar img-circle" src="images/blog/avatar3.png" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="well">
+                                                        <div class="media-heading">
+                                                            <strong>John Doe</strong>&nbsp; <small>27 Aug 2013</small>
+                                                            <a class="pull-right" href="#"><i class="icon-repeat"></i> Reply</a>
+                                                        </div>
+                                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div> 
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="avatar img-circle" src="images/blog/avatar2.png" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="well">
+                                                <div class="media-heading">
+                                                    <strong>John Doe</strong>&nbsp; <small>27 Aug 2013</small>
+                                                    <a class="pull-right" href="#"><i class="icon-repeat"></i> Reply</a>
+                                                </div>
+                                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div> 
+                                <div id="comment-form">
+                                    <h3>Leave a comment</h3>
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" placeholder="Name">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="email" class="form-control" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <textarea rows="8" class="form-control" placeholder="Comment"></textarea>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-danger btn-lg">Submit Comment</button>
+                                    </form>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section> 
+            
+
+    <section id="seccion-final">
+      <div class="container">
+        <div class="row ">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">about us</h4>
+          <p class="texto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa, inventore totam numquam reiciendis nam officiis quo iusto possimus culpa perferendis adipisci veritatis eius.</p>
+          <p class="texto text-white">Lorem ipsum dolor sit amet.</p>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">company</h4>
+          <ul class="flecha">
+            <li><a>company overview</a></li>
+            <li><a>meet the team</a></li>
+            <li><a>our awesome partners</a></li>
+            <li><a>our services</a></li>
+            <li><a>frequenly asked questions</a></li>
+            <li><a>contact us</a></li>
+            <li><a>privacy policy</a></li>
+            <li><a>terms of use</a></li>
+            <li><a>copyrigth</a></li>
+          </ul>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="text-capitalize text-white">latest blog</h4>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb1.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 17 aug 2013</p>
+            </div>
+          </div>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb2.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 13 sep 2013</p>
+            </div>
+          </div>
+          <div class="row latest-post">
+            <a class="foto-latest-post" href="#">
+              <img src="images/blog/thumb3.jpg" alt="foto ultimas noticias">
+            </a>
+            <div class="resumen-post">
+              <a href="">Pellentesque habitant morbi tristique senectus</a>
+              <p class="fecha">posted 11 jul 2013</p>
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="address">
+            <h4 class="text-capitalize text-white">address</h4>
+            <p class="texto">twitter, inc.</p>
+            <p class="texto">795 folsom ave, suite 600</p>
+            <p class="texto">san francisco, CA94107</p>
+            <p class="texto">p: (123) 456-7890</p>
+          </div>
+          <div class="newsletter">
+            <h4 class="text-capitalize text-white">newsletter</h4>
+            <form action="" method="post" class="subscribe-form">
+              <input type="email" name="email" class="subscribe-input" placeholder="Enter your email">
+              <span>
+                <button type="submit" class="btn-danger subscribe-submit text-capitalize">go!</button>
+              </span>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <p class="texto text-capitalize">© 2013 shapeBootstrap. all rights reserved.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="pull-right">
+            <ul class="nav-footer">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about-us.html">about us</a></li>
+                <li><a href="contact-us.html">contact us</a></li>
+                <li>
+                  <a class="gototop" href="#">
+                    <i class="icon-chevron-up"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
